@@ -8,7 +8,7 @@ Package.on_use(function(api) {
   api.use('ui');
   api.use('templating');
   
-  api.add_files('link_to.html');
-  api.add_files('link_to.js');
+  api.add_files('link_to.html', ['client']);
+  api.add_files('link_to.js', ['client']);
 });
 
