@@ -6,7 +6,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.1');
-  api.addFiles('link-to.html');
-  api.addFiles('link-to.js');
+  api.addFiles('link_to.html');
+  api.addFiles('link_to.js');
 });
 
