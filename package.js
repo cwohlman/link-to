@@ -1,7 +1,7 @@
 Package.describe({
   summary: "A simple helper for iron router to create route links.",
   version: "1.0.0",
-  git: ""
+  git: "https://github.com/cwohlman/link-to.git"
 });
 
 Package.onUse(function(api) {
