@@ -1,16 +1,12 @@
 Package.describe({
-  summary: " \* Fill me in! *\ ",
+  summary: "A simple helper for iron router to create route links.",
   version: "1.0.0",
-  git: " \* Fill me in! *\ "
+  git: ""
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.1');
-  api.addFiles('cwohlman:link-to.js');
+  api.addFiles('link-to.html');
+  api.addFiles('link-to.js');
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('cwohlman:link-to');
-  api.addFiles('cwohlman:link-to-tests.js');
-});
