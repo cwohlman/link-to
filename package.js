@@ -1,6 +1,6 @@
 Package.describe({
   summary: "A simple helper for iron router to create route links.",
-  version: "1.0.1",
+  version: "1.0.2",
   git: "https://github.com/cwohlman/link-to.git",
   name: "cwohlman:link-to"
 });
